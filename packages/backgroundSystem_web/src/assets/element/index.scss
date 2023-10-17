@@ -1,0 +1,30 @@
+// 修改element-plus主题色
+
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    "primary": (
+      "base": #0369a1,
+    ),
+    "success": (
+      "base": #8bc34a,
+    ),
+    "warning": (
+      "base": #ffc107,
+    ),
+    "danger": (
+      "base": #f56c6c,
+    ),
+    "error": (
+      "base": #ff5722,
+    ),
+    "info": (
+      "base": #909399,
+    ),
+  ),
+
+  $button-padding-horizontal: (
+    // "default": 80px
+  )
+);
+
+
