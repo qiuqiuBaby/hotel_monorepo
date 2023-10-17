@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center p-15px flex-wrap">
+  <div class="flex items-center p-15px flex-wrap min-w-full">
     <div class="flex flex-wrap">
       <div v-for="(item, index) in props.searchFields" :key="index" class="flex mr-50px items-center">
           <label class="flex items-center whitespace-nowrap">{{ item.label }}：</label>

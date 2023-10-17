@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-700 p-10px text-light-50 h-45px flex items-center">
+  <div class="bg-sky-800 p-10px text-light-50 h-45px flex items-center">
     <span>XXX管理平台</span>
     <div class="flex fixed right-10px">
       <el-dropdown popper-class="head-nav-dropdown" :teleported="false" :popper-options="{
